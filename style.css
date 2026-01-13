@@ -79,15 +79,10 @@ h2 {
     border: none;
     background-color: hsl(0, 0%, 20%);
     width: 100%;
-    
-}
-
-
-.developer-handles  .social a {
-    text-decoration: none;
     color: aliceblue;
-
 }
+
+
 
 .developer-handles  .social:hover {
     background-color: hsl(0, 0%, 29%);
@@ -95,15 +90,13 @@ h2 {
     transition: 0.3s ease all;
 }
 
-.attribution {
+.attribution a{
     font-size: 14px;
     padding-top: 1rem;
+    text-decoration: none;
 }
 
-.attribution a {
-    text-decoration: none;
-    
-}
+
 
 .attribution a:hover {
     color: green;

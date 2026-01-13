@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter' , sans-serif;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  hsl(0, 0%, 8%);
+    color: #fff;
+
+
+}
+
+
+.main-container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 260px;
+    min-width: 25%;
+    height: auto;
+    box-shadow: 5px 4px 6px rgba(0 , 0 , 0 , 0.2); 
+    transition: transform 0.5s ease-out;
+}
+
+.main-container:hover {
+    transform: scale(0.98);
+}
+
+.blogger-image{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem  0 1rem 0;
+}
+
+.blogger-image img {
+    border-radius: 50%;
+    height: auto;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 2rem;
+    color: rgb(230, 230, 95);
+    margin-top: 0.rem;
+}
+
+.profession {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 2rem;
+
+}
+
+.developer-handles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.developer-handles .social{
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    
+}
+
+
+.developer-handles  .social a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.developer-handles  .social:hover {
+    background-color: hsl(0, 0%, 29%);
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.attribution {
+    font-size: 14px;
+    padding-top: 1rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    
+}
+
+.attribution a:hover {
+    color: green;
+    transition: 0.2s ease all;
+}
+
+@media (max-width: 768px) and (max-width: 1200px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    .profession {
+
+            font-size: 10px;
+
+    
+    }
+
+    .main-container {
+        width: 320px;
+        min-width: 30%;
+    }
+
+    .attribution {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .main-container:hover {
+        transform: scale(0.99888);
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+
+    
+}
